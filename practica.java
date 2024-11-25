@@ -10,6 +10,11 @@ public class practica {
 		
 		// User 1 fer la suma dels elements de sumArray
 		
+		int sum = 0;
+        for (int num : sumArray) {
+            sum += num;
+        }
+        System.out.println("La suma es : " + sum);
 		
 		
 		// User 2 fer la resta dels elements de subArray
